@@ -1,1 +1,12 @@
-# aws-cloud-fundamentals-lambda-and-S3
+# Aws-cloud-fundamentals-lambda-and-S3
+
+Este projeto tem como objetivo apresentar um pouco sobre a atividade “Executando Tarefas Automatizadas com Lambda Function e S3”, realizada em parceria com a DIO durante o bootcamp Code Girls 2025. O propósito é documentar o aprendizado adquirido ao utilizar esses recursos para criar um fluxo consistente de automatização de tarefas com os serviços AWS S3 e AWS Lambda.
+
+## Serviços utilizados:
+
+- AWS Lambda
+   O AWS Lambda é um serviço de computação serverless, ou seja, dispensa a necessidade de provisionar ou gerenciar servidores, executando seu código automaticamente em resposta a eventos. Após o envio do código (em forma de função) e a definição das configurações básicas, o Lambda se encarrega de toda a infraestrutura, garantindo escalonamento automático, alta disponibilidade e manutenção dos servidores de forma transparente. Dessa maneira, o desenvolvedor pode focar apenas na lógica da aplicação, sem se preocupar com a gestão do ambiente. Além disso, o serviço é amplamente utilizado em cenários como upload de arquivos no Amazon S3, atualizações em bancos de dados, processamento de filas de mensagens, chamadas HTTP via API Gateway, execução de tarefas agendadas e até integrações com dispositivos IoT, demonstrando sua versatilidade e eficiência na automação de tarefas na nuvem.
+
+  - Amazon S3
+    O Amazon S3 (Simple Storage Service) é um serviço de armazenamento em nuvem altamente escalável e seguro oferecido pela AWS, projetado para armazenar e recuperar qualquer quantidade de dados a qualquer momento e de qualquer lugar. Ele funciona por meio de buckets, que são contêineres onde os objetos (arquivos e metadados) são armazenados. Após a criação de um bucket, é possível definir políticas de acesso, criar versões de arquivos e configurar eventos para integrar o S3 a outros serviços da AWS, como o Lambda, permitindo a automatização de tarefas. Além disso, o S3 oferece alta durabilidade, disponibilidade e segurança, contando com criptografia, controle de acesso granular e integração com o AWS Identity and Access Management (IAM).
+Graças à sua versatilidade, o Amazon S3 é amplamente utilizado para armazenamento de backups, hospedagem de sites estáticos, análise de dados, distribuição de conteúdo e integração com pipelines de machine learning, sendo uma das soluções mais completas para gestão e processamento de dados em nuvem.
